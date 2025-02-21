@@ -8,5 +8,15 @@
   },
   "patch": {
     "automerge": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchFileNames": ["examples/fw/package.json"],
+      "enabled": true
+    },
+    {
+      "matchFileNames": ["examples/lib/package.json"],
+      "enabled": true
+    }
+  ]
 }
